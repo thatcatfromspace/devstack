@@ -1,0 +1,27 @@
+{
+  "name": "devstack-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "devstack": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.js",
+    "build": "tsx src/index.js"
+  },
+  "keywords": [],
+  "author": "Dinesh Veluswamy",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.10.1",
+    "chalk": "^5.4.1",
+    "execa": "^9.5.2",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.3",
+    "tsup": "^8.4.0"
+  }
+}
