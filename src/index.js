@@ -10,7 +10,7 @@ const framework = await select({
   options: [
     { label: "React + Vite", value: "react-vite" },
     { label: "Next.js", value: "next" },
-    { label: "Quit", value: null },
+    // { label: "Quit", value: null },
   ],
 });
 
@@ -38,7 +38,7 @@ switch (framework) {
     break;
 }
 
-if (isCancel(framework)) {
-  cancel("Operation cancelled.");
-  process.exit(0);
-}
+// if (isCancel(framework)) {
+//   cancel("Operation cancelled.");
+//   process.exit(0);
+// }
